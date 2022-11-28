@@ -5,63 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Food.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/GameUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ImageUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MyFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Paddle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/movable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/1629702755362_84a39ede3284dfcaa71703c98647a8f5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/2294056ad1aa7e15ed1f2337507fa19e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/UI-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/UI-background2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/a4229a483cf76e0b5458450c2e591ff3--d-texture-paint-texture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/end.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-apple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-banana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-blueberry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-cherry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-durian.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-grape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-grapefruit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-kiwi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-lemon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-litchi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-mango.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-peach.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-pear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-pineapple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-pitaya.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-strawberry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/food-watermelon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/frogger.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/game-scene-01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/in-snake-head-clipart-snake-head-cartoon-11562915033zdtswr66u1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/jl1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/jlayer1.0.1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/kindpng_2287331.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/kindpng_4091760.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/snake-body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/snake-graphics.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/snake-head-right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/snake-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/snake_sprites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/wp3906260.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +66,19 @@
       <option name="presentableId" value="Default" />
       <updated>1669497194146</updated>
     </task>
+    <task id="LOCAL-00001" summary="working code, no changes">
+      <created>1669661442244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669661442244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="working code, no changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="working code, no changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
