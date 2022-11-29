@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
+    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="certain member class variables changed to private">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669738904857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="certain member class variables changed to private">
+      <created>1669739093423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669739093423</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -106,7 +115,8 @@
     <MESSAGE value="Useless main class deleted" />
     <MESSAGE value="Useless imports in Food class deleted and mySnake static class moved to snake class" />
     <MESSAGE value="screenGraphics class made for drawing of the screen, so far only drawScore refactored into new class" />
-    <option name="LAST_COMMIT_MESSAGE" value="screenGraphics class made for drawing of the screen, so far only drawScore refactored into new class" />
+    <MESSAGE value="certain member class variables changed to private" />
+    <option name="LAST_COMMIT_MESSAGE" value="certain member class variables changed to private" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

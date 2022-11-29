@@ -60,16 +60,6 @@ public class Play extends MyFrame
 		screenGraphics.drawScore(g);
 	}
 
-	public static void main(String[] args)
-	{
-		new Play().loadFrame();
-		MusicPlayer.getMusicPlay("src/example/frogger.mp3");
-
-
-	}
-
-
-
 
 /*
 	public static void main(String[] args)
