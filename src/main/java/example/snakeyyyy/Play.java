@@ -19,11 +19,13 @@ public class Play extends MyFrame
 
 	private static final long serialVersionUID = -3641221053272056036L;
 
-	public Snake.MySnake mySnake = new Snake.MySnake(100, 100);// x , y
+	public static Snake.MySnake mySnake = new Snake.MySnake(100, 100);// x , y
 	public Food food = new Food();
 
 	public Image background = ImageUtil.images.get("UI-background");
 	public Image fail = ImageUtil.images.get("game-scene-01");
+
+
 
 	@Override
 	public void keyPressed(KeyEvent e)
@@ -35,6 +37,7 @@ public class Play extends MyFrame
 	@Override
 	public void paint(Graphics g)
 	{
+		ScreenGraphics screenGraphics = new ScreenGraphics();
 		super.paint(g);
 		g.drawImage(background, 0, 0, null);
 
@@ -54,14 +57,7 @@ public class Play extends MyFrame
 		{
 			g.drawImage(fail, 0, 0, null);
 		}
-		drawScore(g);
-	}
-
-	public void drawScore(Graphics g)
-	{
-		g.setFont(new Font(Font.SANS_SERIF, Font.BOLD, 30));
-		g.setColor(Color.MAGENTA);
-		g.drawString("SCORE : " + mySnake.score, 20, 40);
+		screenGraphics.drawScore(g);
 	}
 
 	public static void main(String[] args)
@@ -69,8 +65,13 @@ public class Play extends MyFrame
 		new Play().loadFrame();
 		MusicPlayer.getMusicPlay("src/example/frogger.mp3");
 
+
 	}
-/*	
+
+
+
+
+/*
 	public static void main(String[] args)
 	{
 		JFrame frame = new JFrame();
