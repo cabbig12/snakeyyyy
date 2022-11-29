@@ -1,14 +1,9 @@
 package example.snakeyyyy;
 
-import example.snakeyyyy.ImageUtil;
-import example.snakeyyyy.MyFrame;
-
 import java.awt.Graphics;
 import java.util.Random;
-import java.awt.Graphics2D;
-import java.awt.Image;
 
-public class Food extends MyFrame.SnakeObject
+public class Food extends Snake.SnakeObject
 {
 
 	private static final long serialVersionUID = -3641221053272056036L;
@@ -27,7 +22,7 @@ public class Food extends MyFrame.SnakeObject
 		this.y = (int) (Math.random() * (560 - h - 40));
 	}
 
-	public void eaten(MyFrame.MySnake mySnake)	{
+	public void eaten(Snake.MySnake mySnake)	{
 
 		if (mySnake.getRectangle().intersects(this.getRectangle()) && l && mySnake.l)		{
 			this.l = false;
