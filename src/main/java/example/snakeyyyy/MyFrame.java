@@ -25,7 +25,7 @@ import javax.swing.JPanel;
 public class MyFrame extends JPanel implements KeyListener {
 	private static final long serialVersionUID = -3149926831770554380L;
 
-	public JFrame jFrame = new JFrame();
+	private JFrame jFrame = new JFrame();
 
 
 	public MyFrame() {

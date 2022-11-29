@@ -11,7 +11,7 @@ import javazoom.jl.player.Player;
 public class MusicPlayer extends Thread
 {
 	private String filename;
-	public Player player;
+	private Player player;
 
 	public MusicPlayer(String filename)
 	{
