@@ -7,7 +7,6 @@
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/example/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example/banner.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669838818410</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="start menu with banner and buttons">
+      <created>1669841227563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1669841227563</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,7 +161,8 @@
     <MESSAGE value="start screen and main menu made with blue background set" />
     <MESSAGE value="tite banner added" />
     <MESSAGE value="title banner added" />
-    <option name="LAST_COMMIT_MESSAGE" value="title banner added" />
+    <MESSAGE value="start menu with banner and buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="start menu with banner and buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
