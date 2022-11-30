@@ -56,6 +56,7 @@ public class MyFrame extends JPanel implements KeyListener {
 		new MyThread().start();
 	}
 
+
 	class MyThread extends Thread {
 		@Override
 		public void run() {

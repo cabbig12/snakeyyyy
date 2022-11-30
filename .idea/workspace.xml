@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="certain member class variables changed to private">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/main.java" afterDir="false" />
+    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MyFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,21 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/jonathanmondira/IdeaProjects/snakeyyyy/src/main/java/example/snakeyyyy&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/jonathanmondira/IdeaProjects/snakeyyyy/src/main/java/example/snakeyyyy",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/example/snakeyyyy" />
@@ -107,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669739093423</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="main class made to only run game and support single use classes">
+      <created>1669740367966</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669740367966</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -116,7 +125,8 @@
     <MESSAGE value="Useless imports in Food class deleted and mySnake static class moved to snake class" />
     <MESSAGE value="screenGraphics class made for drawing of the screen, so far only drawScore refactored into new class" />
     <MESSAGE value="certain member class variables changed to private" />
-    <option name="LAST_COMMIT_MESSAGE" value="certain member class variables changed to private" />
+    <MESSAGE value="main class made to only run game and support single use classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="main class made to only run game and support single use classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
