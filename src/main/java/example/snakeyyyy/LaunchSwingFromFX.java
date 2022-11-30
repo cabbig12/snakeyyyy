@@ -16,7 +16,7 @@ public class LaunchSwingFromFX extends Application {
 
         Platform.setImplicitExit(false);
 
-        Button launch = new Button("Enter");
+        Button launch = new Button("New Game");
         launch.setOnAction(e -> {
             SwingUtilities.invokeLater(StartMenu::new);
             primaryStage.hide();

@@ -31,7 +31,10 @@ public class ImageUtil
 		images.put("14", GameUtil.getImage("example/food-pineapple.png"));
 		images.put("15", GameUtil.getImage("example/food-strawberry.png"));
 		images.put("16", GameUtil.getImage("example/food-watermelon.png"));
+		//Game design graphics
 		images.put("UI-background", GameUtil.getImage("example/UI-background.png"));
 		images.put("game-scene-01", GameUtil.getImage("example/game-scene-01.jpg"));
+		images.put("start-menu-banner", GameUtil.getImage("example/banner.jpg"));
+
 	}
 }
