@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="" />
+    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/example/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example/banner.jpg" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669838267720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="tite banner added">
+      <created>1669838780689</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669838780689</updated>
+    </task>
+    <task id="LOCAL-00010" summary="title banner added">
+      <created>1669838818410</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1669838818410</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,7 +153,9 @@
     <MESSAGE value="main class made to only run game and support single use classes" />
     <MESSAGE value="main class deleted, javafx and swing implemented to create start screen," />
     <MESSAGE value="start screen and main menu made with blue background set" />
-    <option name="LAST_COMMIT_MESSAGE" value="start screen and main menu made with blue background set" />
+    <MESSAGE value="tite banner added" />
+    <MESSAGE value="title banner added" />
+    <option name="LAST_COMMIT_MESSAGE" value="title banner added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
