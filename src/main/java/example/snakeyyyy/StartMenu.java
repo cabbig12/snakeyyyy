@@ -24,10 +24,13 @@ public class StartMenu extends JFrame {
         panel2.setLayout(layout2);
         panel3.setLayout(layout3);
 
-        JButton StartButton = new JButton("Start: --------");
-        JButton quitButton = new JButton("Exit--------");
+        JButton StartButton = new JButton("Start: ");
+        StartButton.setSize( new Dimension( 600, 70 ) );
+        JButton quitButton = new JButton("Exit");
+        quitButton.setPreferredSize( new Dimension( 600, 70 ) );
         quitButton.addActionListener(e -> System.exit(0));
         StartButton.addActionListener(e -> StartGame.startGame());
+        StartButton.addActionListener(e -> dispose());
 
         panel1.add(sticker);
 
@@ -50,6 +53,6 @@ public class StartMenu extends JFrame {
         setSize(600, 600);
         setLocationRelativeTo(null);
         setVisible(true);
-        getContentPane().setBackground(Color.LIGHT_GRAY);
+        getContentPane().setBackground(Color.yellow);
     }
 }

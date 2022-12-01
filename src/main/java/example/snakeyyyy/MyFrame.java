@@ -27,7 +27,6 @@ public class MyFrame extends JPanel implements KeyListener {
 
 	private JFrame jFrame = new JFrame();
 
-
 	public MyFrame() {
 		jFrame.setIconImage(Toolkit.getDefaultToolkit().getImage(MyFrame.class.getResource("/example/snake-logo.png")));
 	}
