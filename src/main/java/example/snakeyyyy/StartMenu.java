@@ -1,5 +1,7 @@
 package example.snakeyyyy;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -23,6 +25,9 @@ public class StartMenu extends JFrame {
         panel3.setBackground(Color.green);
         panel4.setBackground(Color.green);
 
+        //Defining enterName label
+        JLabel EnterName = new JLabel("Enter Name: ");
+
         //Defining highscore labels
         JLabel HighScore1 = new JLabel("This is a label1");
         JLabel HighScore2 = new JLabel("This is a label2");
@@ -32,7 +37,7 @@ public class StartMenu extends JFrame {
         JLabel sticker = new JLabel(icon);
         
         //defining input text box
-        JTextField textField = new JTextField(10);
+        JTextField textField = new JTextField(5);
 
         //making quit, submit and start button
         JButton submitButton = new JButton("Submit");
@@ -47,7 +52,7 @@ public class StartMenu extends JFrame {
 
         //setting jpanels to boxlayout
         BoxLayout layout1 = new BoxLayout(panel1, BoxLayout.X_AXIS);
-        GridLayout layout2 = new GridLayout();
+        BoxLayout layout2 = new BoxLayout(panel2, BoxLayout.X_AXIS);
         BoxLayout layout3 = new BoxLayout(panel3, BoxLayout.Y_AXIS);
         BoxLayout layout4 = new BoxLayout(panel4, BoxLayout.Y_AXIS);
         panel1.setLayout(layout1);
@@ -58,7 +63,8 @@ public class StartMenu extends JFrame {
         //setting size of quit start and submit button
         StartButton.setMaximumSize( new Dimension( 350, 70 ) );
         quitButton.setMaximumSize( new Dimension( 350, 70 ) );
-        submitButton.setMaximumSize( new Dimension(     150, 70 ) );
+        submitButton.setMaximumSize( new Dimension(     80, 30 ) );
+        textField.setMaximumSize(new Dimension( 150, 30 ));
 
 
         //adding functionality to start and quit button
@@ -70,10 +76,13 @@ public class StartMenu extends JFrame {
         //adding snakeyyyy label to the 1st panel
         panel1.add(sticker);
 
-        //adding start and quit button to the 2nd panel
+
         //adding text box to panel2
+        panel2.add(EnterName);
         panel2.add(textField);
         panel2.add(submitButton);
+
+        //adding start and quit button to the 3rd panel
         panel3.add(StartButton);
         panel3.add(quitButton);
 
@@ -83,7 +92,7 @@ public class StartMenu extends JFrame {
         panel4.add(HighScore3);
 
         // Add the three panels into the frame
-        setLayout(new GridLayout(3,1));
+        setLayout(new GridLayout(4,1));
         add(panel1);
         add(panel2);
         add(panel3);
@@ -91,9 +100,18 @@ public class StartMenu extends JFrame {
 
         //positioning frame nicely
         panel1.setBorder(BorderFactory.createEmptyBorder(10, 193, 10, 10));
-        panel2.setBorder(BorderFactory.createEmptyBorder(70, 120, 100, 100));
+        panel2.setBorder(BorderFactory.createEmptyBorder(2, 150, 10, 50));
         panel3.setBorder(BorderFactory.createEmptyBorder(70, 120, 100, 100));
         panel4.setBorder(BorderFactory.createTitledBorder("HighScore"));
+
+        StartButton.setVisible(false);
+        submitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                submitButton.setVisible(false);
+                StartButton.setVisible(true);
+            }
+        });
 
         pack();
         setVisible(true);
