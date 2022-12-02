@@ -7,9 +7,6 @@
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669925590235</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="name added to game screen with the StyleStartMenu method">
+      <created>1669998706649</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1669998706649</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -205,7 +209,8 @@
     <MESSAGE value="new panel added to jframe to add username field" />
     <MESSAGE value="Enter username label added and start button hidden until submit is pressed" />
     <MESSAGE value="StartMenu refactored into different methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="StartMenu refactored into different methods" />
+    <MESSAGE value="name added to game screen with the StyleStartMenu method" />
+    <option name="LAST_COMMIT_MESSAGE" value="name added to game screen with the StyleStartMenu method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

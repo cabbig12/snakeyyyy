@@ -7,7 +7,10 @@ import javafx.application.Platform;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+
+
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -27,9 +30,18 @@ public class LaunchSwingFromFX extends Application {
             primaryStage.hide();
         });
         StackPane root = new StackPane(launch);
-        Scene scene = new Scene(root, 400, 400);
+        Scene scene = new Scene(root, 800, 500);
+
+        scene.setFill(Color.web("#81c483"));
+
         primaryStage.setScene(scene);
         primaryStage.show();
+
+    }
+
+    public void LaunchScreenStyling(){
+
+
     }
 
     public static void main(String[] args) {
