@@ -2,6 +2,12 @@ package example.snakeyyyy;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -21,8 +27,11 @@ public class StartMenu extends JFrame {
     //Defining enterName label
     JLabel EnterName = new JLabel("Enter Name: ");
 
+    //Defining username
+    static String Username = "hello";
+
     //Defining highscore labels
-    JLabel HighScore1 = new JLabel("This is a label1");
+    JLabel HighScore1 = new JLabel(Username);
     JLabel HighScore2 = new JLabel("This is a label2");
     JLabel HighScore3 = new JLabel("This is a label3");
 
@@ -36,11 +45,13 @@ public class StartMenu extends JFrame {
     JButton submitButton = new JButton("Submit");
     JButton quitButton = new JButton("Exit");
     JButton StartButton = new JButton("Start");
+
     public StartMenu() {
 
         StyleStartMenu();
         AddStartMenuObjects();
         StartMenuObjectFunctionality();
+
 
     }
 
@@ -125,14 +136,52 @@ public class StartMenu extends JFrame {
         // Setting start button to be invisible
         StartButton.setVisible(false);
 
+
         // making start button visible once submit button gets pressed
         submitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 submitButton.setVisible(false);
                 StartButton.setVisible(true);
+
+                //Adding string in text box to username variable
+                StartMenu.Username = textField.getText();;
+
             }
         });
+
+    }
+
+    public void WriteToFile(){
+
+    }
+
+    public void CreateFile(){
+        try {
+            File myObj = new File("filename.txt");
+            if (myObj.createNewFile()) {
+                System.out.println("File created: " + myObj.getName());
+            } else {
+                System.out.println("File already exists.");
+            }
+        } catch (IOException e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+    }
+
+    public void StoreNameAndScore() throws FileNotFoundException {
+
+        Scanner sc = new Scanner(new File(""));
+        //parsing a CSV file into the constructor of Scanner class
+        sc.useDelimiter(",");
+        //setting comma as delimiter pattern
+        while (sc.hasNext()) {
+            Username = (sc.next());
+        }
+        sc.close();
+        //closes the scanner
+
 
     }
 

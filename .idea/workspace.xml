@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669924442986</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="StartMenu refactored into different methods">
+      <created>1669925590235</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1669925590235</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,7 +204,8 @@
     <MESSAGE value="menu closed after start game is pressed and game opens" />
     <MESSAGE value="new panel added to jframe to add username field" />
     <MESSAGE value="Enter username label added and start button hidden until submit is pressed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enter username label added and start button hidden until submit is pressed" />
+    <MESSAGE value="StartMenu refactored into different methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="StartMenu refactored into different methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -202,6 +213,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.NoSuchFileException" package="java.nio.file" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
