@@ -1,3 +1,4 @@
-.startscreen-plot-background {
-   -fx-background-image: url("cat.jpg");
+.pane {
+      -fx-alignment: center ;
+          -fx-padding: 10 ;
 }
