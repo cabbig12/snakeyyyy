@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/snakebg.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ImageUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/example/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670004541738</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="start screen loaded up to Start Screen in start class in LaunchSwingFromFX and banner added to start screen in LaunchSwingFromFX">
+      <created>1670009577924</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670009577924</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -221,7 +225,8 @@
     <MESSAGE value="StartMenu refactored into different methods" />
     <MESSAGE value="name added to game screen with the StyleStartMenu method" />
     <MESSAGE value="start screen image added to resources folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="start screen image added to resources folder" />
+    <MESSAGE value="start screen loaded up to Start Screen in start class in LaunchSwingFromFX and banner added to start screen in LaunchSwingFromFX" />
+    <option name="LAST_COMMIT_MESSAGE" value="start screen loaded up to Start Screen in start class in LaunchSwingFromFX and banner added to start screen in LaunchSwingFromFX" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

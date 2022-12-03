@@ -28,44 +28,51 @@ import java.nio.file.Paths;
 
 public class LaunchSwingFromFX extends Application {
 
+    //start button initialised
+    Button launch = new Button("New Game");
+
+    //root pane initialised
+    StackPane root = new StackPane();
+
+    //Scene initialised
+    Scene scene = new Scene(root, 600, 377);
+
+    //Pane for banner initialised
+    Pane bannerPane = new Pane();
+
+    //background image initialised and made into type ImageView
+    Image background = new Image("example/snakebg.jpeg");
+    ImageView backgroundView = new ImageView(background);
+    //banner picture initialised and made into type ImageView
+    Image banner = new Image("example/banner.jpg");
+    ImageView bannerView = new ImageView(banner);
 
     @Override
     public void start(Stage primaryStage) {
 
         Platform.setImplicitExit(false);
-        Label label = new Label("this is StackPane example");
 
-        Button launch = new Button("New Game");
-        launch.setOnAction(e -> {
+        launch.setOnAction(e -> {                       //making launch button load up StartMenu
             SwingUtilities.invokeLater(StartMenu::new);
             primaryStage.hide();
         });
-        StackPane root = new StackPane();
-        Scene scene = new Scene(root, 600, 377);
 
-        Pane bannerPane = new Pane();
+        LaunchScreenStyling();
 
-
-
-        Image background = new Image("example/snakebg.jpeg");
-        Image banner = new Image("example/banner.jpg");
-        ImageView backgroundView = new ImageView(background);
-        ImageView bannerView = new ImageView(banner);
-
-        bannerPane.getChildren().add(bannerView);
-
-        root.getChildren().add(backgroundView);
-        root.getChildren().add(bannerPane);
-        root.getChildren().add(launch);
-
-        bannerPane.getStyleClass().add("/example/stylesheet.css");
-
+        //adding scene to stage
         primaryStage.setScene(scene);
         primaryStage.show();
 
     }
 
     public void LaunchScreenStyling(){
+
+        //adding labels panes and buttons to scene
+        bannerPane.getChildren().add(bannerView);
+        root.getChildren().add(backgroundView);
+        root.getChildren().add(bannerPane);
+        root.getChildren().add(launch);
+        bannerPane.getStyleClass().add("/example/stylesheet.css");
 
 
     }
