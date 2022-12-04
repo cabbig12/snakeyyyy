@@ -26,7 +26,7 @@ public class Play extends MyFrame
 	public Image background = ImageUtil.images.get("UI-background");
 	public Image fail = ImageUtil.images.get("game-scene-01");
 
-	public EndMenu endMenu = new EndMenu();
+
 
 	@Override
 	public void keyPressed(KeyEvent e)
@@ -35,6 +35,8 @@ public class Play extends MyFrame
 		mySnake.keyPressed(e);
 	}
 
+
+	//draws all play screen graphics
 	@Override
 	public void paint(Graphics g)
 	{
@@ -42,7 +44,7 @@ public class Play extends MyFrame
 		super.paint(g);
 		g.drawImage(background, 0, 0, null);
 
-		// Ákveða stöðu leiksins.
+		// Controls food drawn if snake is alive other
 		if (mySnake.l)
 		{
 			mySnake.draw(g);
@@ -56,7 +58,7 @@ public class Play extends MyFrame
 			}
 		} else
 		{
-			g.drawImage(fail, 0, 0, null);
+			StartGame.DrawEndMenu();
 		}
 		screenGraphics.drawScore(g);
 	}

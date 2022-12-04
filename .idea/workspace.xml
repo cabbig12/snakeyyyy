@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/example/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670093236985</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="EndMenu class created and functions added, no implementation yet">
+      <created>1670176218611</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670176218611</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,7 +243,8 @@
     <MESSAGE value="start screen image added to resources folder" />
     <MESSAGE value="start screen loaded up to Start Screen in start class in LaunchSwingFromFX and banner added to start screen in LaunchSwingFromFX" />
     <MESSAGE value="LaunchSwingFromFX class commented" />
-    <option name="LAST_COMMIT_MESSAGE" value="LaunchSwingFromFX class commented" />
+    <MESSAGE value="EndMenu class created and functions added, no implementation yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="EndMenu class created and functions added, no implementation yet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
