@@ -26,7 +26,7 @@ public class Play extends MyFrame
 	public Image background = ImageUtil.images.get("UI-background");
 	public Image fail = ImageUtil.images.get("game-scene-01");
 
-
+	public EndMenu endMenu = new EndMenu();
 
 	@Override
 	public void keyPressed(KeyEvent e)
@@ -60,6 +60,7 @@ public class Play extends MyFrame
 		}
 		screenGraphics.drawScore(g);
 	}
+
 
 
 /*

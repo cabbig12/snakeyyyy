@@ -144,7 +144,7 @@ public class StartMenu extends JFrame {
                 submitButton.setVisible(false);
                 StartButton.setVisible(true);
 
-                //Adding string in text box to username variable
+                //Adding string
                 StartMenu.Username = textField.getText();;
 
             }

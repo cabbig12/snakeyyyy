@@ -72,6 +72,7 @@ public class LaunchSwingFromFX extends Application {
         root.getChildren().add(backgroundView);
         root.getChildren().add(bannerPane);
         root.getChildren().add(launch);
+        bannerPane.setId("banner");
         bannerPane.getStyleClass().add("/example/stylesheet.css");
 
 

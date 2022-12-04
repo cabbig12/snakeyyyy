@@ -1,4 +1,3 @@
-.pane {
-      -fx-alignment: center ;
-          -fx-padding: 10 ;
+#banner{
+         -fx-margin-left: 100px;
 }

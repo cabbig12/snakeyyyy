@@ -27,7 +27,7 @@ public class Snake {
 
 public static class MySnake extends SnakeObject implements movable
 {
-    // Leikjabreytan.
+    // Snake properties initialised
     private int speed_XY;
     private int length;
     private int num; // ?
