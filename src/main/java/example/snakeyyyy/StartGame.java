@@ -11,7 +11,9 @@ public class StartGame {
 
     }
 
-    public static void DrawEndMenu(){
+    public static void DrawEndMenu(){           // function to draw EndMenu frame
+
+        // counter to ensure only one EndMenu frame is drawn
         i++;
         if(i == 1) {
             endMenu.EndMenu();

@@ -73,7 +73,7 @@ public static class MySnake extends SnakeObject implements movable
 
     public void keyPressed(KeyEvent e)
     {
-        // athugaðu lykilinn
+        // All keyboard control of the snake managed here
         switch (e.getKeyCode())
         {
             case KeyEvent.VK_UP:
@@ -132,7 +132,7 @@ public static class MySnake extends SnakeObject implements movable
 
     public void move()
     {
-        // láta kvikindið hreyfa sig
+        // adding value to the relative axis depending on key pressed
         if (up)
         {
             y -= speed_XY;

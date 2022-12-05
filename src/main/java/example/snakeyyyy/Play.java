@@ -24,7 +24,8 @@ public class Play extends MyFrame
 	public Food food = new Food();
 
 	public Image background = ImageUtil.images.get("UI-background");
-	public Image fail = ImageUtil.images.get("game-scene-01");
+
+	public WallsLevel wallsLevel = new WallsLevel();
 
 
 
@@ -56,6 +57,11 @@ public class Play extends MyFrame
 			{
 				food = new Food();
 			}
+			if(mySnake.score > 500){
+				setVisible(false);
+				new Snake.MySnake(100, 100);
+				new WallsLevel().loadFrame();
+			}
 		} else
 		{
 			setVisible(false);
@@ -64,24 +70,4 @@ public class Play extends MyFrame
 		screenGraphics.drawScore(g);
 	}
 
-
-
-/*
-	public static void main(String[] args)
-	{
-		JFrame frame = new JFrame();
-		// frame.setSize(400,600);
-		frame.setBounds(450, 200, 920, 600);
-		// frame.setResizable(false);
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-		SnakePanel panel = new SnakePanel();
-		frame.add(panel);
-
-		frame.setVisible(true);
-
-		// Play the background music.
-		MusicPlayer.getMusicPlay("resource\\music\\background.mp3");
-	} 
-*/
 }
