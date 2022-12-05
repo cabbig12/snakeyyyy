@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670176218611</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="EndMenu Implemented with non-functional buttons and badly positioned buttons">
+      <created>1670182648561</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670182648561</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +251,8 @@
     <MESSAGE value="start screen loaded up to Start Screen in start class in LaunchSwingFromFX and banner added to start screen in LaunchSwingFromFX" />
     <MESSAGE value="LaunchSwingFromFX class commented" />
     <MESSAGE value="EndMenu class created and functions added, no implementation yet" />
-    <option name="LAST_COMMIT_MESSAGE" value="EndMenu class created and functions added, no implementation yet" />
+    <MESSAGE value="EndMenu Implemented with non-functional buttons and badly positioned buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="EndMenu Implemented with non-functional buttons and badly positioned buttons" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

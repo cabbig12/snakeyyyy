@@ -44,7 +44,7 @@ public class Play extends MyFrame
 		super.paint(g);
 		g.drawImage(background, 0, 0, null);
 
-		// Controls food drawn if snake is alive other
+		// Controls food drawn if snake is alive otherwise draws end screen
 		if (mySnake.l)
 		{
 			mySnake.draw(g);
@@ -58,6 +58,7 @@ public class Play extends MyFrame
 			}
 		} else
 		{
+			setVisible(false);
 			StartGame.DrawEndMenu();
 		}
 		screenGraphics.drawScore(g);

@@ -14,9 +14,13 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.border.TitledBorder;
 
 public class StartMenu extends JFrame {
+
+    public static Snake.MySnake mySnake = new Snake.MySnake(100, 100);// x , y
     StartGame StartGame;
     Image label = ImageUtil.images.get("start-menu-banner");
     Icon icon = new ImageIcon((Image) label);
+
+    Play play;
 
     //defining panels
     JPanel panel1 = new JPanel();
@@ -130,6 +134,7 @@ public class StartMenu extends JFrame {
 
         //adding functionality to start and quit button
         quitButton.addActionListener(e -> System.exit(0));
+        StartButton.addActionListener(e -> Play.mySnake.l = true);
         StartButton.addActionListener(e -> StartGame.startGame());
         StartButton.addActionListener(e -> dispose());
 
