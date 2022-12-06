@@ -49,6 +49,7 @@ public class LaunchSwingFromFX extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        //method to create stage for launch frame
 
         Platform.setImplicitExit(false);
 

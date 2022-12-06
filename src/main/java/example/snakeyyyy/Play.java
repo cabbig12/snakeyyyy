@@ -63,11 +63,11 @@ public class Play extends MyFrame
 			}
 		} else
 		{
+			// hides current jframe and draws end menu frame
 			setVisible(false);
 			StartGame.DrawEndMenu();
 		}
-		System.out.println("1st");
-		screenGraphics.drawScore(g);
+		screenGraphics.drawScore(g); // draws score on frame
 	}
 
 }

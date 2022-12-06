@@ -2,9 +2,13 @@ package example.snakeyyyy;
 
 public class StartGame {
 
+    // counter for End Menu frame
     static int i = 0;
+
+    // counter for 2nd level frame
     static int j = 0;
 
+    // counter for 1st level frame
     static int e = 0;
     static EndMenu endMenu = new EndMenu();
 
@@ -12,6 +16,7 @@ public class StartGame {
     static int GameLevel;
     public static void startGame()
     {
+        // Method to start 1st level
         e++;
         if(e == 1){
             System.out.println("true");
@@ -21,6 +26,8 @@ public class StartGame {
 
     }
     public static void StartWallsLevel(){
+
+        // Method to start 2nd level
         j++;
         if (Play.mySnake.score > 500 && j == 1){
             WallsLevel.SetScore();

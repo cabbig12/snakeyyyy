@@ -32,9 +32,7 @@ public class MyFrame extends JPanel implements KeyListener {
 	}
 
 	public void loadFrame() {
-		/*
-		 * Komið í veg fyrir að myndin blikki.
-		 */
+		// loading jframe
 		this.setDoubleBuffered(true);
 		jFrame.add(this);
 		jFrame.addKeyListener(this);

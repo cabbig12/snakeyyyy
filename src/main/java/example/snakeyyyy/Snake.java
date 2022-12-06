@@ -30,9 +30,9 @@ public class Snake {
 public static class MySnake extends SnakeObject implements movable
 {
     // Snake properties initialised
-    private int speed_XY;
+    private float speed_XY;
     private int length;
-    private int num; // ?
+    private float num; // ?
     public int score = 0;
 
 
@@ -132,9 +132,9 @@ public static class MySnake extends SnakeObject implements movable
     }
 
     public void ChangeSpeed(){
-        if(this.getRectangle().intersects(food.getRectangle()) && l){
-            if(this.speed_XY < 20){
-                this.speed_XY = this.speed_XY + 1;}
+        // method to increase speed as snake eats more food
+        if(this.speed_XY < 12){
+            this.speed_XY = (float) (this.speed_XY + 0.6);
         }
     }
 
@@ -192,11 +192,11 @@ public static class MySnake extends SnakeObject implements movable
 
     public void drawBody(Graphics g)
     {
-        int length = bodyPoints.size() - 1 - num;
+        float length = bodyPoints.size() - 1 - num;
 
-        for (int i = length; i >= num; i -= num)
+        for (float i = length; i >= num; i -= num)
         {
-            Point point = bodyPoints.get(i);
+            Point point = bodyPoints.get((int) i);
             g.drawImage(this.i, point.x, point.y, null);
         }
     }
