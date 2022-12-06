@@ -135,6 +135,7 @@ public class StartMenu extends JFrame {
         //adding functionality to start and quit button
         quitButton.addActionListener(e -> System.exit(0));
         StartButton.addActionListener(e -> Play.mySnake.l = true);
+        StartButton.addActionListener(e -> StartGame.GameLevel = 1);
         StartButton.addActionListener(e -> StartGame.startGame());
         StartButton.addActionListener(e -> dispose());
 

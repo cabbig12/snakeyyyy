@@ -29,6 +29,8 @@ public class Food extends Snake.SnakeObject
 			mySnake.changeLength(mySnake.getLength() + 1);
 			mySnake.score += 521;
 		}
+		// Increasing speed when food gets eaten.
+		//mySnake.ChangeSpeed();
 	}
 	@Override
 	public void draw(Graphics g)

@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="Only Exit button on EndScreen working">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/WallsLevel.java" afterDir="false" />
+    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ImageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Food.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/ScreenGraphics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/WallsLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/WallsLevel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2I6Lfy3VeOrKC2pMy6658gwh3mL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670200146075</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="New level added and starts when player reaches specified score">
+      <created>1670274646121</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670274646121</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -262,7 +271,8 @@
     <MESSAGE value="EndMenu class created and functions added, no implementation yet" />
     <MESSAGE value="EndMenu Implemented with non-functional buttons and badly positioned buttons" />
     <MESSAGE value="Only Exit button on EndScreen working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Only Exit button on EndScreen working" />
+    <MESSAGE value="New level added and starts when player reaches specified score" />
+    <option name="LAST_COMMIT_MESSAGE" value="New level added and starts when player reaches specified score" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

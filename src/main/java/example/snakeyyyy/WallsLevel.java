@@ -10,7 +10,9 @@ public class WallsLevel extends MyFrame  {
     public Food food = new Food();
 
     public Image background = ImageUtil.images.get("UI-background2");
-
+    public static void SetScore(){
+        mySnake.score = Play.mySnake.score;
+    }
     @Override
     public void keyPressed(KeyEvent e)
     {
@@ -44,7 +46,9 @@ public class WallsLevel extends MyFrame  {
             setVisible(false);
             StartGame.DrawEndMenu();
         }
-        screenGraphics.drawScore(g);
+        screenGraphics.drawScore2(g);
+        System.out.println(mySnake.score);
+
     }
 
     public void AddWalls(){

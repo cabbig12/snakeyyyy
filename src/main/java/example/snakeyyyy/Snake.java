@@ -13,6 +13,8 @@ public class Snake {
 
     // TODO: það þarf endurnýjun
 
+    public static Food food = new Food();
+
     public static int moving;
 
     public static int move(int x) {
@@ -129,6 +131,13 @@ public static class MySnake extends SnakeObject implements movable
         }
     }
 
+    public void ChangeSpeed(){
+        if(this.getRectangle().intersects(food.getRectangle()) && l){
+            if(this.speed_XY < 20){
+                this.speed_XY = this.speed_XY + 1;}
+        }
+    }
+
 
     public void move()
     {
@@ -194,8 +203,8 @@ public static class MySnake extends SnakeObject implements movable
 
     private void outofBounds()
     {
-        boolean xOut = (x <= 0 || x >= (870 - w));
-        boolean yOut = (y <= 40 || y >= (560 - h));
+        boolean xOut = (x <= 0 || x >= (890 - w));
+        boolean yOut = (y <= 0 || y >= (560 - h));
         if (xOut || yOut)
         {
             l = false;

@@ -1,9 +1,8 @@
 package example.snakeyyyy;
 
+import java.awt.*;
 import java.awt.Color;
 import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Image;
 import java.awt.event.KeyEvent;
 
 
@@ -57,16 +56,17 @@ public class Play extends MyFrame
 			{
 				food = new Food();
 			}
-			if(mySnake.score > 500){
+			if(mySnake.score > 500){		//check score and change level if condition is met
+				StartGame.StartWallsLevel();
 				setVisible(false);
-				new Snake.MySnake(100, 100);
-				new WallsLevel().loadFrame();
+
 			}
 		} else
 		{
 			setVisible(false);
 			StartGame.DrawEndMenu();
 		}
+		System.out.println("1st");
 		screenGraphics.drawScore(g);
 	}
 
