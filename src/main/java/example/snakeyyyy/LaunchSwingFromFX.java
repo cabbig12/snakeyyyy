@@ -29,7 +29,8 @@ import java.nio.file.Paths;
 public class LaunchSwingFromFX extends Application {
 
     //start button initialised
-    Button launch = new Button("New Game");
+    Button launch = new Button("New Game: Green Theme");
+    Button launch2 = new Button("New Game: Blue Theme");
 
     //root pane initialised
     StackPane root = new StackPane();
@@ -73,6 +74,7 @@ public class LaunchSwingFromFX extends Application {
         root.getChildren().add(backgroundView);
         root.getChildren().add(bannerPane);
         root.getChildren().add(launch);
+        root.getChildren().add(launch2);
         bannerPane.setId("banner");
         bannerPane.getStyleClass().add("/example/stylesheet.css");
 
