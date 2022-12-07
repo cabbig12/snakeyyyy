@@ -2,14 +2,18 @@ package example.snakeyyyy;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;
+import java.util.Random;
 
 public class WallsLevel extends MyFrame  {
     private static final long serialVersionUID = -3641221053272056036L;
 
     public static Snake.MySnake mySnake = new Snake.MySnake(100, 100);// x , y
+
+    public static Walls walls = new Walls();
     public Food food = new Food();
 
     public Image background = ImageUtil.images.get("UI-background2");
+
     public static void SetScore(){
         mySnake.score = Play.mySnake.score;
     }
@@ -33,6 +37,8 @@ public class WallsLevel extends MyFrame  {
         if (mySnake.l)
         {
             mySnake.draw(g);
+            walls.draw(g);
+            walls.WallTouched(mySnake);
             if (food.l)
             {
                 food.draw(g);
@@ -51,7 +57,5 @@ public class WallsLevel extends MyFrame  {
 
     }
 
-    public void AddWalls(){
 
-    }
 }
