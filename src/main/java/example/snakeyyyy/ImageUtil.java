@@ -37,6 +37,7 @@ public class ImageUtil
 		images.put("start-menu-banner", GameUtil.getImage("example/banner.jpg"));
 		images.put("start-screen-background", GameUtil.getImage("example/snakebg.jpeg"));
 		images.put("UI-background2", GameUtil.getImage("example/wp3906260.jpg"));
-		images.put("Wall", GameUtil.getImage("example/Lwall.png"));
+		images.put("Vertical Wall", GameUtil.getImage("example/wall.jpeg"));
+		images.put("Horizontal Wall", GameUtil.getImage("example/Hwall.jpeg"));
 	}
 }

@@ -182,7 +182,7 @@ public static class MySnake extends SnakeObject implements movable
         {
             for (Point point2 : bodyPoints)
             {
-                if (point.equals(point2) && point != point2)
+                if (point != point2 && point.distance(point2) < 5)
                 {
                     this.l = false;
                 }

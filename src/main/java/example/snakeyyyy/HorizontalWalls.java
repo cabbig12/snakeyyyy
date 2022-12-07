@@ -1,14 +1,14 @@
 package example.snakeyyyy;
 
 import java.awt.*;
-import java.util.Random;
 
-public class Walls extends Snake.SnakeObject {
+public class HorizontalWalls extends Snake.SnakeObject {
 
-    public Walls(){
+    public HorizontalWalls() {
+        // method to draw horizontal walls
         this.l = true;
 
-        this.i = ImageUtil.images.get("Wall");
+        this.i = ImageUtil.images.get("Horizontal Wall");
 
         this.w = i.getWidth(null);
         this.h = i.getHeight(null);
@@ -22,7 +22,8 @@ public class Walls extends Snake.SnakeObject {
         // checking if food and snake objects touch and adding to the score and snake length if condition is met
         if (mySnake.getRectangle().intersects(this.getRectangle())  && mySnake.l)		{
             mySnake.changeLength(mySnake.getLength() - 3);
-            mySnake.score += 521;
+
+            mySnake.l = false;
 
         }
 
@@ -33,4 +34,3 @@ public class Walls extends Snake.SnakeObject {
         g.drawImage(i, x, y, null);
     }
 }
-

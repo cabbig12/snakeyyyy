@@ -9,7 +9,8 @@ public class WallsLevel extends MyFrame  {
 
     public static Snake.MySnake mySnake = new Snake.MySnake(100, 100);// x , y
 
-    public static Walls walls = new Walls();
+    public static VerticalWalls Vwalls = new VerticalWalls();
+    public static HorizontalWalls Hwalls = new HorizontalWalls();
     public Food food = new Food();
 
     public Image background = ImageUtil.images.get("UI-background2");
@@ -37,8 +38,10 @@ public class WallsLevel extends MyFrame  {
         if (mySnake.l)
         {
             mySnake.draw(g);
-            walls.draw(g);
-            walls.WallTouched(mySnake);
+            Vwalls.draw(g);
+            Vwalls.WallTouched(mySnake);
+            Hwalls.draw(g);
+            Hwalls.WallTouched(mySnake);
             if (food.l)
             {
                 food.draw(g);
