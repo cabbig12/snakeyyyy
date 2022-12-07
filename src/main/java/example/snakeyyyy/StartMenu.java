@@ -136,8 +136,11 @@ public class StartMenu extends JFrame {
         quitButton.addActionListener(e -> System.exit(0));
         StartButton.addActionListener(e -> Play.mySnake.l = true);
         StartButton.addActionListener(e -> StartGame.GameLevel = 1);
-        StartButton.addActionListener(e -> StartGame.startGame());
         StartButton.addActionListener(e -> dispose());
+        StartButton.addActionListener(e -> setVisible(false));
+        StartButton.addActionListener(e -> StartGame.startGame());
+        StartButton.addActionListener(e -> setVisible(false));
+
 
         // Setting start button to be invisible
         StartButton.setVisible(false);

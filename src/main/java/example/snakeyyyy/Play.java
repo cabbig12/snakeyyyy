@@ -57,9 +57,8 @@ public class Play extends MyFrame
 				food = new Food();
 			}
 			if(mySnake.score > 500){		//check score and change level if condition is met
-				StartGame.StartWallsLevel();
 				setVisible(false);
-
+				StartGame.StartWallsLevel();
 			}
 		} else
 		{

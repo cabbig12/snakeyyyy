@@ -12,6 +12,8 @@ public class StartGame {
     static int e = 0;
     static EndMenu endMenu = new EndMenu();
 
+    static StartMenu startMenu = new StartMenu();
+
     static boolean GameState = true;
     static int GameLevel;
     public static void startGame()
@@ -21,6 +23,7 @@ public class StartGame {
         if(e == 1){
             System.out.println("true");
             new Play().loadFrame();
+            startMenu.setVisible(false);
             MusicPlayer.getMusicPlay("src/example/frogger.mp3");
         }
 

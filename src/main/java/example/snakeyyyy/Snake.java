@@ -185,6 +185,7 @@ public static class MySnake extends SnakeObject implements movable
                 if (point != point2 && point.distance(point2) < 5)
                 {
                     this.l = false;
+
                 }
             }
         }

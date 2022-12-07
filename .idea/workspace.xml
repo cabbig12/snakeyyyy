@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenuBlue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Snake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670427655849</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="New theme option added and button to load theme is functional">
+      <created>1670429920925</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670429920925</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,7 +317,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="screenGraphics class made for drawing of the screen, so far only drawScore refactored into new class" />
     <MESSAGE value="certain member class variables changed to private" />
     <MESSAGE value="main class made to only run game and support single use classes" />
     <MESSAGE value="main class deleted, javafx and swing implemented to create start screen," />
@@ -334,7 +341,8 @@
     <MESSAGE value="ChangeSpeed function implemented to increase snake speed with each piece of food eaten" />
     <MESSAGE value="Horizontal and Vertical walls added randomly to wall level and collision causes death" />
     <MESSAGE value="Button for different themed menu added to launch screen, non functional" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button for different themed menu added to launch screen, non functional" />
+    <MESSAGE value="New theme option added and button to load theme is functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="New theme option added and button to load theme is functional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
