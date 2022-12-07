@@ -32,6 +32,8 @@ public class LaunchSwingFromFX extends Application {
     Button launch = new Button("New Game: Green Theme");
     Button launch2 = new Button("New Game: Blue Theme");
 
+
+
     //root pane initialised
     StackPane root = new StackPane();
 
@@ -59,6 +61,11 @@ public class LaunchSwingFromFX extends Application {
             primaryStage.hide();
         });
 
+        launch2.setOnAction(e -> {                       //making launch button load up StartMenu
+            SwingUtilities.invokeLater(StartMenuBlue::new);
+            primaryStage.hide();
+        });
+
         LaunchScreenStyling();
 
         //adding scene to stage
@@ -76,7 +83,12 @@ public class LaunchSwingFromFX extends Application {
         root.getChildren().add(launch);
         root.getChildren().add(launch2);
         bannerPane.setId("banner");
-        bannerPane.getStyleClass().add("/example/stylesheet.css");
+
+        //position 2nd button
+        launch2.setTranslateX(0);
+        launch2.setTranslateY(30);
+
+
 
 
     }

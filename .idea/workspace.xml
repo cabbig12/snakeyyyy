@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenuBlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670427267402</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Button for different themed menu added to launch screen, non functional">
+      <created>1670427655849</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670427655849</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,7 +309,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Useless imports in Food class deleted and mySnake static class moved to snake class" />
     <MESSAGE value="screenGraphics class made for drawing of the screen, so far only drawScore refactored into new class" />
     <MESSAGE value="certain member class variables changed to private" />
     <MESSAGE value="main class made to only run game and support single use classes" />
@@ -324,7 +333,8 @@
     <MESSAGE value="Wall Level score update properly and new level starts and loads nicely" />
     <MESSAGE value="ChangeSpeed function implemented to increase snake speed with each piece of food eaten" />
     <MESSAGE value="Horizontal and Vertical walls added randomly to wall level and collision causes death" />
-    <option name="LAST_COMMIT_MESSAGE" value="Horizontal and Vertical walls added randomly to wall level and collision causes death" />
+    <MESSAGE value="Button for different themed menu added to launch screen, non functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button for different themed menu added to launch screen, non functional" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
