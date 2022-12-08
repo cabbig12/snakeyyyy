@@ -1,6 +1,6 @@
 package example.snakeyyyy;
 
-import java.awt.Graphics;
+import java.awt.*;
 import java.util.Random;
 
 public class Food extends Snake.SnakeObject

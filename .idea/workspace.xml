@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="">
+    <list default="true" id="24e12a81-6a99-4dc4-a4bf-049062244650" name="Changes" comment="class deleted, refactored into method in start menu, data succesfully shown in scoreboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/CSVReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/EndMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Food.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Food.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/GameUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/GameUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/HorizontalWalls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/HorizontalWalls.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/LaunchSwingFromFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Paddle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/Play.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenuBlue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/StartMenuBlue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/WallsLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/snakeyyyy/WallsLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/example/highscore.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example/highscore.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +313,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670533656457</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="class deleted, refactored into method in start menu, data succesfully shown in scoreboard">
+      <created>1670534860118</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1670534860118</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +347,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main class deleted, javafx and swing implemented to create start screen," />
     <MESSAGE value="start screen and main menu made with blue background set" />
     <MESSAGE value="tite banner added" />
     <MESSAGE value="title banner added" />
@@ -354,7 +371,8 @@
     <MESSAGE value="New theme option added and button to load theme is functional" />
     <MESSAGE value="Attempt to hide unused frames when new ones are loaded" />
     <MESSAGE value="Class to read csv files added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Class to read csv files added" />
+    <MESSAGE value="class deleted, refactored into method in start menu, data succesfully shown in scoreboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="class deleted, refactored into method in start menu, data succesfully shown in scoreboard" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,15 +6,15 @@ public class HorizontalWalls extends Snake.SnakeObject {
 
     public HorizontalWalls() {
         // method to draw horizontal walls
-        this.l = true;
+        this.l = true; // Status of life
 
-        this.i = ImageUtil.images.get("Horizontal Wall");
+        this.i = ImageUtil.images.get("Horizontal Wall"); // image initialised
 
-        this.w = i.getWidth(null);
-        this.h = i.getHeight(null);
+        this.w = i.getWidth(null);  // width of wall variable
+        this.h = i.getHeight(null); // height of wall variable
 
-        this.x = (int) (Math.random() * (870 - w + 10));
-        this.y = (int) (Math.random() * (560 - h - 40));
+        this.x = (int) (Math.random() * (870 - w + 10));    // x coordinate
+        this.y = (int) (Math.random() * (560 - h - 40));    // y coordinate
     }
 
     public void WallTouched(Snake.MySnake mySnake)	{
@@ -23,6 +23,7 @@ public class HorizontalWalls extends Snake.SnakeObject {
         if (mySnake.getRectangle().intersects(this.getRectangle())  && mySnake.l)		{
             mySnake.changeLength(mySnake.getLength() - 3);
 
+            // making snake life status false
             mySnake.l = false;
 
         }

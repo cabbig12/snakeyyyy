@@ -52,6 +52,8 @@ public class StartMenu extends JFrame {
     JButton quitButton = new JButton("Exit");
     JButton StartButton = new JButton("Start");
 
+    public static final String delimiter = ",";
+
     int counter = 1;
     boolean state = true;
 
@@ -59,9 +61,9 @@ public class StartMenu extends JFrame {
 
         if(state){
             if (counter == 1){
-                StyleStartMenu();
-                AddStartMenuObjects();
-                StartMenuObjectFunctionality();
+                styleStartMenu();
+                addStartMenuObjects();
+                startMenuObjectFunctionality();
                 counter++;}
 
             if(counter == 3){
@@ -74,7 +76,7 @@ public class StartMenu extends JFrame {
 
     }
 
-    public void StyleStartMenu(){
+    private void styleStartMenu(){
         // defining background colors
         panel1.setBackground(Color.green);
         panel2.setBackground(Color.green);
@@ -116,7 +118,7 @@ public class StartMenu extends JFrame {
         setVisible(true);
     }
 
-    public void AddStartMenuObjects(){
+    private void addStartMenuObjects(){
 
 
         //adding snakeyyyy label to the 1st panel
@@ -132,11 +134,8 @@ public class StartMenu extends JFrame {
         panel3.add(StartButton);
         panel3.add(quitButton);
 
-        //adding highscore labels to the 3rd panel
-        panel4.add(HighScore1);
+        //adding highscore labels to the 4th panel
         read(csvFile);
-        //panel4.add(HighScore2);
-        //panel4.add(HighScore3);
 
         // Add the three panels into the frame
         setLayout(new GridLayout(4,1));
@@ -146,7 +145,7 @@ public class StartMenu extends JFrame {
         add(panel4);
     }
 
-    public void StartMenuObjectFunctionality(){
+    private void startMenuObjectFunctionality(){
 
         //adding functionality to start and quit button
         quitButton.addActionListener(e -> System.exit(0));
@@ -177,8 +176,7 @@ public class StartMenu extends JFrame {
 
     }
 
-    public static final String delimiter = ",";
-    public static void read(String csvFile) {
+    private static void read(String csvFile) {
         try {
             File file = new File(csvFile);
             FileReader fr = new FileReader(file);
@@ -188,7 +186,7 @@ public class StartMenu extends JFrame {
             while ((line = br.readLine()) != null) {
                 tempArr = line.split(delimiter);
                 for (String tempStr: tempArr) {
-                    JLabel scoree =  new JLabel(tempStr + " ");
+                    JLabel scoree =  new JLabel(tempStr);
                     panel4.add(scoree);
                 }
 

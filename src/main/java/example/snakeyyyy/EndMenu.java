@@ -2,8 +2,7 @@ package example.snakeyyyy;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+
 
 public class EndMenu extends JFrame {
 
@@ -12,6 +11,7 @@ public class EndMenu extends JFrame {
     public Image fail = ImageUtil.images.get("game-scene-01");
     StartMenu StartMenu = new StartMenu();
 
+    //Initialising Play class instance
     Play play = new Play();
 
     Snake.MySnake snake;
@@ -39,7 +39,6 @@ public class EndMenu extends JFrame {
         bg.setLayout(layout1);
 
         //adding buttons to the screen
-        bg.add(PlayAgainButton);
         bg.add(ExitButton);
 
 

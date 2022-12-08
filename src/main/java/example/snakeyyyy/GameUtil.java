@@ -19,7 +19,7 @@ public class GameUtil
 			i = ImageIO.read(u);
 		} catch (Exception e)
 		{
-			System.err.println("VILLA : FINN EKKI TILTEKNA MYNDIN !\n");
+			System.err.println("Failed!\n");
 			e.printStackTrace();
 		}
 
@@ -28,6 +28,7 @@ public class GameUtil
 
 	public static Image rotateImage(final BufferedImage bufferedImage, final int degree)
 	{
+		//Method to rotate image with image and rotation degree as parameters
 	int w = bufferedImage.getWidth();
 	int h = bufferedImage.getHeight();
 	int t = bufferedImage.getColorModel().getTransparency();
@@ -41,6 +42,7 @@ public class GameUtil
 	graphics2d.drawImage(bufferedImage, 0, 0, null);
 	graphics2d.dispose();
 
+	// returns rotated image
 	return i;
 
 	}

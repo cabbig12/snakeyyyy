@@ -1,8 +1,6 @@
 package example.snakeyyyy;
 
 import java.awt.*;
-import java.awt.Color;
-import java.awt.Font;
 import java.awt.event.KeyEvent;
 
 
@@ -19,15 +17,16 @@ public class Play extends MyFrame
 
 	private static final long serialVersionUID = -3641221053272056036L;
 
+	// creating new snake object
 	public static Snake.MySnake mySnake = new Snake.MySnake(100, 100);// x , y
+
+	// creating new food object
 	public Food food = new Food();
 
+	// creating new image for background picture
 	public Image background = ImageUtil.images.get("UI-background");
 
-	public WallsLevel wallsLevel = new WallsLevel();
-
-
-
+	// method to process key pressed
 	@Override
 	public void keyPressed(KeyEvent e)
 	{

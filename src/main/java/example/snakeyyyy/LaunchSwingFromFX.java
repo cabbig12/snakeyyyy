@@ -1,30 +1,16 @@
 package example.snakeyyyy;
 
-import javax.swing.*;
-
 import javafx.application.Application;
 import javafx.application.Platform;
-import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
-import javafx.stage.Stage;
-import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-
-import java.awt.*;
-import java.io.*;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+import javax.swing.*;
 
 public class LaunchSwingFromFX extends Application {
 
@@ -66,6 +52,7 @@ public class LaunchSwingFromFX extends Application {
             primaryStage.hide();
         });
 
+        // styling screen method called
         LaunchScreenStyling();
 
         //adding scene to stage

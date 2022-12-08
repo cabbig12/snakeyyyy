@@ -33,7 +33,7 @@ public class StartGame {
         // Method to start 2nd level
         j++;
         if (Play.mySnake.score > 500 && j == 1){
-            WallsLevel.SetScore();
+            WallsLevel.SetScore();      //method to draw score called
             new WallsLevel().loadFrame();
         }
     }

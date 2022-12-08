@@ -2,9 +2,6 @@ package example.snakeyyyy;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.util.Random;
-import java.awt.Graphics2D;
-
 import javazoom.jl.player.Player;
 
 
@@ -20,6 +17,7 @@ public class MusicPlayer extends Thread
 
 	public void play()
 	{
+		// method to play music file
 		new Thread()
 		{
 			@Override
@@ -28,7 +26,6 @@ public class MusicPlayer extends Thread
 				super.run();
 				try
 				{
-					//BufferedInputStream buffer = new BufferedInputStream(new FileInputStream(filename));
 					player = new Player(new BufferedInputStream(new FileInputStream(filename)));
 					player.play();
 
@@ -44,6 +41,7 @@ public class MusicPlayer extends Thread
 
 	public static void getMusicPlay(String filename)
 	{
+		// method to get music file
 		MusicPlayer musicPlayer = new MusicPlayer(filename);
 		musicPlayer.play();
 	}
