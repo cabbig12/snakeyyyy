@@ -20,6 +20,8 @@ public class StartMenu extends JFrame {
     Image label = ImageUtil.images.get("start-menu-banner");
     Icon icon = new ImageIcon((Image) label);
 
+    String csvFile = "example/highscore.csv";
+
     Play play;
 
     //defining panels
@@ -50,11 +52,24 @@ public class StartMenu extends JFrame {
     JButton quitButton = new JButton("Exit");
     JButton StartButton = new JButton("Start");
 
+    int counter = 1;
+    boolean state = true;
+
     public StartMenu() {
 
-        StyleStartMenu();
-        AddStartMenuObjects();
-        StartMenuObjectFunctionality();
+        if(state){
+            if (counter == 1){
+                StyleStartMenu();
+                AddStartMenuObjects();
+                StartMenuObjectFunctionality();
+                counter++;}
+
+            if(counter == 3){
+                this.setVisible(false);
+                counter++;
+            }
+        }
+
 
 
     }
@@ -119,8 +134,8 @@ public class StartMenu extends JFrame {
 
         //adding highscore labels to the 3rd panel
         panel4.add(HighScore1);
-        panel4.add(HighScore2);
-        panel4.add(HighScore3);
+        //panel4.add(HighScore2);
+        //panel4.add(HighScore3);
 
         // Add the three panels into the frame
         setLayout(new GridLayout(4,1));
@@ -136,10 +151,10 @@ public class StartMenu extends JFrame {
         quitButton.addActionListener(e -> System.exit(0));
         StartButton.addActionListener(e -> Play.mySnake.l = true);
         StartButton.addActionListener(e -> StartGame.GameLevel = 1);
+        StartButton.addActionListener(e -> counter = 3);
         StartButton.addActionListener(e -> dispose());
-        StartButton.addActionListener(e -> setVisible(false));
         StartButton.addActionListener(e -> StartGame.startGame());
-        StartButton.addActionListener(e -> setVisible(false));
+
 
 
         // Setting start button to be invisible

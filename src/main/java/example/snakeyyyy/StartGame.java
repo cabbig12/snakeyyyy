@@ -23,7 +23,7 @@ public class StartGame {
         if(e == 1){
             System.out.println("true");
             new Play().loadFrame();
-            startMenu.setVisible(false);
+            startMenu.dispose();
             MusicPlayer.getMusicPlay("src/example/frogger.mp3");
         }
 

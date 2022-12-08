@@ -59,7 +59,8 @@ public class EndMenu extends JFrame {
         //adding functionality to start and quit button
         ExitButton.addActionListener(e -> System.exit(0));
         PlayAgainButton.addActionListener(e -> new StartMenu());
-        PlayAgainButton.addActionListener(e -> dispose());
+        PlayAgainButton.addActionListener(e -> super.dispose());
+        PlayAgainButton.addActionListener(e -> super.dispose());
 
     }
 

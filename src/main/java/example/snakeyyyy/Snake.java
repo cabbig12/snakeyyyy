@@ -14,6 +14,7 @@ public class Snake {
     // TODO: það þarf endurnýjun
 
     public static Food food = new Food();
+    public static Play play = new Play();
 
     public static int moving;
 
