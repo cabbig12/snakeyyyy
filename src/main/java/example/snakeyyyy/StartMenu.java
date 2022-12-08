@@ -20,7 +20,7 @@ public class StartMenu extends JFrame {
     Image label = ImageUtil.images.get("start-menu-banner");
     Icon icon = new ImageIcon((Image) label);
 
-    String csvFile = "example/highscore.csv";
+    String csvFile = "src/main/resources/example/highscore.csv";
 
     Play play;
 
@@ -28,7 +28,7 @@ public class StartMenu extends JFrame {
     JPanel panel1 = new JPanel();
     JPanel panel2 = new JPanel();
     JPanel panel3 = new JPanel();
-    JPanel panel4 = new JPanel();
+    static JPanel panel4 = new JPanel();
 
     //Defining enterName label
     JLabel EnterName = new JLabel("Enter Name: ");
@@ -134,6 +134,7 @@ public class StartMenu extends JFrame {
 
         //adding highscore labels to the 3rd panel
         panel4.add(HighScore1);
+        read(csvFile);
         //panel4.add(HighScore2);
         //panel4.add(HighScore3);
 
@@ -176,37 +177,27 @@ public class StartMenu extends JFrame {
 
     }
 
-    public void WriteToFile(){
-
-    }
-
-    public void CreateFile(){
+    public static final String delimiter = ",";
+    public static void read(String csvFile) {
         try {
-            File myObj = new File("filename.txt");
-            if (myObj.createNewFile()) {
-                System.out.println("File created: " + myObj.getName());
-            } else {
-                System.out.println("File already exists.");
+            File file = new File(csvFile);
+            FileReader fr = new FileReader(file);
+            BufferedReader br = new BufferedReader(fr);
+            String line = " ";
+            String[] tempArr;
+            while ((line = br.readLine()) != null) {
+                tempArr = line.split(delimiter);
+                for (String tempStr: tempArr) {
+                    JLabel scoree =  new JLabel(tempStr + " ");
+                    panel4.add(scoree);
+                }
+
             }
-        } catch (IOException e) {
-            System.out.println("An error occurred.");
-            e.printStackTrace();
+            br.close();
         }
-    }
-
-    public void StoreNameAndScore() throws FileNotFoundException {
-
-        Scanner sc = new Scanner(new File(""));
-        //parsing a CSV file into the constructor of Scanner class
-        sc.useDelimiter(",");
-        //setting comma as delimiter pattern
-        while (sc.hasNext()) {
-            Username = (sc.next());
+        catch(IOException ioe) {
+            ioe.printStackTrace();
         }
-        sc.close();
-        //closes the scanner
-
-
     }
 
 
