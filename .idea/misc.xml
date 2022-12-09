@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$USER_HOME$/Documents/DMS_final" />
+    <option name="OPTION_SCOPE" value="package" />
+    <option name="OPTION_NAVIGATOR" value="false" />
+    <option name="OPTION_SEPARATE_INDEX" value="false" />
+    <option name="OPTION_INCLUDE_LIBS" value="true" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

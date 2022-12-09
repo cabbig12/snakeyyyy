@@ -23,12 +23,8 @@ public class Snake {
         return moving;
     }
 
-    public static void stop() {
-        moving = 0;
-    }
 
-
-public static class MySnake extends SnakeObject implements movable
+    public static class MySnake extends SnakeObject implements movable
 {
     // Snake properties initialised
     private float speed_XY;
